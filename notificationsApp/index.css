@@ -1,0 +1,86 @@
+/* Write your code here. */
+* {
+  box-sizing: 0px;
+}
+
+body {
+  margin: 0px;
+}
+.bg-container {
+  background-color: #ffffff;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+
+  margin-bottom: 20px;
+}
+.main-heading {
+  font-family: "Roboto";
+  font-size: 30px;
+  color: #0f172a;
+  font-weight: bold;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .main-heading {
+    font-size: 64px;
+  }
+}
+
+.card {
+  border: none;
+  height: 20px;
+  max-width: 10%;
+
+  padding: 10px;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 26px;
+}
+.card-blue {
+  background-color: #0b69ff;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.card-green {
+  background-color: #2dca73;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.card-yellow {
+  background-color: #ffb800;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.card-red {
+  background-color: #ff0b37;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.icon {
+  height: 30px;
+  width: 30px;
+  padding: 10px;
+}
+.heading {
+  font-family: "Roboto";
+  font-size: 17px;
+  color: #ffffff;
+}
